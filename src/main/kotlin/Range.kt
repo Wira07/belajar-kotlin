@@ -1,6 +1,7 @@
 fun main() {
 
-    val range = 0..1000
+//    val range = 0..1000
+    val range = 100 downTo 1 step 5
 //    println(range)
     println(range.count())
     println(range.contains(50))
