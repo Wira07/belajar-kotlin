@@ -1,13 +1,16 @@
 fun main() {
 
-    val names: Array<String> = arrayOf("Wira","Sukma","Saputra")
+    val names: Array<String> = arrayOf("Wira","Sukma")
 //    names.set(0, "Lucky")
-    names[0] = "Lucky"
+    names[0] = "Saputra"
     println(names[0])
 
 
+
+
+
     val baru: Array<String> = arrayOf("YUYU", "Realme", "Sukma", "Saputra")
-    baru[0] = "Wildan"
+    baru[0] = "Uniku"
     println(baru[0])
 
     val jumpa: Array<String?> = arrayOfNulls(5)
